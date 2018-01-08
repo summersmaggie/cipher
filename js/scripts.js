@@ -6,3 +6,10 @@ var firstLastToCapital = function(sent) {
 }
 
 alert(firstLastToCapital(sentence))
+
+var reverseOrder = function(sent) {
+	return sent.charAt(length-1).toUpperCase() +
+sent.charAt(0).toUpperCase();
+}
+
+alert(reverseOrder(sentence))
